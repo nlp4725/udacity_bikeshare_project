@@ -26,7 +26,7 @@ def get_filters():
             print('Error: wrong input. Please retype the city\'s name.')
     # get user input for month, day, both or not at all
     while True:
-        choice = input('\nWould you like to filter by month, day, both or not at all.\n')
+        choice = input('\nWould you like to filter by month, day of the week, both or not at all.\n')
         choice = choice.lower().strip()
         if choice in ['month', 'day', 'both', 'not at all']:
             break
