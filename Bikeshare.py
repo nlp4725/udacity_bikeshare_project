@@ -37,6 +37,7 @@ def get_filters():
         while True:
             month = input('\nWhich month? Please select one of the following months: Jan, Feb, Mar, Apr, May, Jun.\n')
             month = month.lower().strip()
+            # checked the data set and only jan-jun data is available
             if month in ['jan', 'feb', 'mar', 'apr', 'may', 'jun']:
                 day = [0, 1, 2, 3, 4, 5, 6]
                 break
