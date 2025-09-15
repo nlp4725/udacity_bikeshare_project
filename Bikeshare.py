@@ -56,7 +56,7 @@ def get_filters():
                 else:
                     print('Error: input out of range.')
             except ValueError:
-                print('Error:wrong input. Please type your input as a number.')
+                print('Error:wrong input. Please retype your input as a number.')
     elif choice == 'both':
         while True:
                 month = input('\nWhich month? Please select one of the following months: Jan, Feb, Mar, Apr, May, Jun.\n')
